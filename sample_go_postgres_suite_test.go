@@ -10,6 +10,7 @@ import (
 	"github.com/onsi/ginkgo/reporters"
 )
 
+
 func TestSample(t *testing.T) {
 	RegisterFailHandler(Fail)
 	junitReporter := reporters.NewJUnitReporter(os.Getenv("CI_REPORT"))
