@@ -6,8 +6,8 @@ go:
 #build_image: shippable/minv2:beta
 
 # Addons used by app
-addons:
-  postgresql: "9.3"
+#addons:
+ # postgresql: "9.3"
   
 
 env:
